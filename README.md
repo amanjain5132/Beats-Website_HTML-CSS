@@ -21,4 +21,4 @@ Today i have Created Instagram resposnsive clone using HTML & CSS.
 
 ![Beats-Website_HTML-CSS](thumbnail1.png)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2254683c-8af2-4ec8-b6c0-243991bd062d/deploy-status)]([https://amanjain-instagram-clone.netlify.app/](https://beats-headph.netlify.app/))
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2254683c-8af2-4ec8-b6c0-243991bd062d/deploy-status)]([https://beats-headph.netlify.app/])
