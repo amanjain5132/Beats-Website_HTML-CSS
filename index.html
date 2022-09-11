@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css" />
+    <title>Beats Studio - Responsive Website</title>
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Beats_Electronics_logo.svg/802px-Beats_Electronics_logo.svg.png">
+</head>
+
+<body>
+
+    <div class="main">
+        <nav class="navbar">
+            <div class="container">
+                <div class="topbar">
+                    <img class="logo" src="./images/logo.png" alt="Logo" />
+                    <i id="menu-button" class="menu-button"></i>
+                </div>
+                <ul id="menu" class="menu">
+                    <li><a href="#">HEADPHONES</a></li>
+                    <li><a href="#">EARPHONES</a></li>
+                    <li><a href="#">SPEAKERS</a></li>
+                    <li><a href="#">SUPPORT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="grid">
+            <div class="product-content">
+                <div class="container">
+                    <h3 class="title-1">Beats Studio By AmanJain</h3>
+                    <h1 class="title-2">Desgined</h1>
+                    <h2 class="title-3">for sound.</h2>
+                    <h3 class="title-4">Turned for emotion</h3>
+                    <img class="beats-image" src="images/beats.png" />
+                    <ul class="features">
+                        <li>Award winning sound</li>
+                        <li>Up to 40 hours of battery life</li>
+                        <li>Fast Fuel technology</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-image">
+                <img src="./images/main.jpg" alt="Beats Studio" />
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    const menuButton = document.getElementById("menu-button");
+    menuButton.addEventListener('click', () => {
+        const menu = document.getElementById("menu");
+        const menuClass = menu.className;
+        if (menuClass === "menu") {
+            menu.className = "menu open";
+        } else {
+            menu.className = "menu";
+        }
+    });
+</script>
+
+</html>
